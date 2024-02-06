@@ -1,3 +1,4 @@
 *.RDS
 *.png
 README_cache/*
+.Rproj.user

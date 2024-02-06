@@ -10,7 +10,7 @@ q2_5 <- function(x)c(q2_5 = quantile(x,probs = c(0.025),
                                      names = FALSE))
 q97_5 <- function(x)c(q97_5 = quantile(x,probs = c(0.975),
                                        names = FALSE))
-aou <- bbsBayes2::search_species("Hermit Thrush")$aou[1]
+aou <- bbsBayes2::search_species("Pacific Wren")$aou[1]
 
 fit <- readRDS(paste0("C:/GitHub/CWS_2022_BBS_Analyses/output/fit_",aou,".rds"))
 
